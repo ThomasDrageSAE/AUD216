@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Win
+  - Occluder
+  - Terrain
+  - Wood
+  - Rock
+  - Water
+  - Swamp
+  - Enemy
+  - Dirt
+  - Metal
+  - Projectile
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Occluder
+  - Water
+  - UI
+  - Terrain
+  - Player
+  - Navmesh ignore
+  - Enemy
+  - TriggerBoxes
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Water
+    uniqueID: 3899157895
+    locked: 0

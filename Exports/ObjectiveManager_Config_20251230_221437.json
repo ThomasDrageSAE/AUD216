@@ -1,0 +1,179 @@
+{
+  "exportTimestamp": "2025-12-30 22:14:37",
+  "componentName": "ObjectiveManager",
+  "gameObjectName": "ObjectiveManager",
+  "configuration": {
+    "allObjectives": [
+      {
+        "objectiveId": "LightCampfire",
+        "description": "Light the campfire",
+        "icon": "null",
+        "isNightObjective": false,
+        "showWorldMarker": true,
+        "targetTag": "LightCampfire",
+        "markerIcon": "SPR_HUD_Objective_Clean",
+        "prerequisites": [
+          "LightFiresticks"
+
+        ]
+      },
+      {
+        "objectiveId": "LightFiresticksGrasslands",
+        "description": "Light firesticks in grasslands",
+        "icon": "null",
+        "isNightObjective": false,
+        "showWorldMarker": true,
+        "targetTag": "LightFiresticks",
+        "markerIcon": "SPR_HUD_Objective_Underlay",
+        "prerequisites": [
+        ]
+      },
+      {
+        "objectiveId": "LightFiresticks",
+        "description": "Light firesticks in swamp",
+        "icon": "null",
+        "isNightObjective": false,
+        "showWorldMarker": true,
+        "targetTag": "LightFiresticks",
+        "markerIcon": "SPR_HUD_Objective_Underlay",
+        "prerequisites": [
+        ]
+      },
+      {
+        "objectiveId": "PickupAxe",
+        "description": "Collect your axe",
+        "icon": "null",
+        "isNightObjective": false,
+        "showWorldMarker": true,
+        "targetTag": "PickupAxe",
+        "markerIcon": "SPR_HUD_Objective_Underlay",
+        "prerequisites": [
+          "LightFiresticks"
+
+        ]
+      },
+      {
+        "objectiveId": "CatchAFish",
+        "description": "Catch a fish",
+        "icon": "null",
+        "isNightObjective": false,
+        "showWorldMarker": true,
+        "targetTag": "",
+        "markerIcon": "SPR_HUD_Objective_Underlay",
+        "prerequisites": [
+          "PickupFishingRod"
+
+        ]
+      },
+      {
+        "objectiveId": "EnterTheStudio",
+        "description": "Go to the studio",
+        "icon": "null",
+        "isNightObjective": false,
+        "showWorldMarker": true,
+        "targetTag": "",
+        "markerIcon": "SPR_HUD_Objective_Underlay",
+        "prerequisites": [
+          "CatchAFish"
+
+        ]
+      },
+      {
+        "objectiveId": "FixStudioPower",
+        "description": "Fix the power in the studio",
+        "icon": "null",
+        "isNightObjective": false,
+        "showWorldMarker": true,
+        "targetTag": "",
+        "markerIcon": "SPR_HUD_Objective_Underlay",
+        "prerequisites": [
+          "EnterTheStudio"
+
+        ]
+      },
+      {
+        "objectiveId": "PickupFishingRod",
+        "description": "Collect your fishing rod",
+        "icon": "null",
+        "isNightObjective": false,
+        "showWorldMarker": true,
+        "targetTag": "PickupFishingRod",
+        "markerIcon": "SPR_HUD_Objective_Underlay",
+        "prerequisites": [
+        ]
+      },
+      {
+        "objectiveId": "TestMixingDesk",
+        "description": "Test the mixing desk is working correctly",
+        "icon": "null",
+        "isNightObjective": false,
+        "showWorldMarker": true,
+        "targetTag": "",
+        "markerIcon": "SPR_HUD_Objective_Underlay",
+        "prerequisites": [
+          "TurnOnLights"
+
+        ]
+      },
+      {
+        "objectiveId": "TurnOnLights",
+        "description": "Turn on lights in the studio",
+        "icon": "null",
+        "isNightObjective": false,
+        "showWorldMarker": true,
+        "targetTag": "",
+        "markerIcon": "SPR_HUD_Objective_Underlay",
+        "prerequisites": [
+          "FixStudioPower"
+
+        ]
+      },
+      {
+        "objectiveId": "CatchTwoFishes",
+        "description": "Catch two fishes",
+        "icon": "null",
+        "isNightObjective": false,
+        "showWorldMarker": true,
+        "targetTag": "",
+        "markerIcon": "SPR_HUD_Objective_Underlay",
+        "prerequisites": [
+        ]
+      },
+      {
+        "objectiveId": "CatchThreeFishes",
+        "description": "Catch three fishes",
+        "icon": "null",
+        "isNightObjective": false,
+        "showWorldMarker": true,
+        "targetTag": "",
+        "markerIcon": "SPR_HUD_Objective_Underlay",
+        "prerequisites": [
+        ]
+      },
+      {
+        "objectiveId": "CatchFourFishes",
+        "description": "Catch four fishes",
+        "icon": "null",
+        "isNightObjective": false,
+        "showWorldMarker": true,
+        "targetTag": "",
+        "markerIcon": "SPR_HUD_Objective_Underlay",
+        "prerequisites": [
+        ]
+      },
+      {
+        "objectiveId": "ZombieDefence",
+        "description": "Defend against zombies",
+        "icon": "null",
+        "isNightObjective": true,
+        "showWorldMarker": true,
+        "targetTag": "",
+        "markerIcon": "null",
+        "prerequisites": [
+        ]
+      }
+    ],
+    "objectiveUIPrefab": "ObjectiveUI_Prefab",
+    "objectivesContainer": "Objective_List"
+  }
+}

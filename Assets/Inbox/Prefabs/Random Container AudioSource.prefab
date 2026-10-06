@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1783559844943784268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4519166397247143939}
+  - component: {fileID: 1677302832451562919}
+  - component: {fileID: 6899575828320963811}
+  - component: {fileID: 1248784105206060279}
+  m_Layer: 0
+  m_Name: Random Container AudioSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4519166397247143939
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783559844943784268}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -14.125, y: 2.7009497, z: 2.333}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1677302832451562919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783559844943784268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806d4865bd6c6424aac963f21e0e695c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Notes: "This game object is setup for randomising sounds, such as bird tweets,
+    frog croaks, wind gusts - really whatever you can think of. To use it, scroll
+    this text down and follow the steps. \n\n1. Add multiple audio clips (e.g. single
+    bird tweets into the My Audio Clips section. Use the + button to add more audio
+    clip elements. When playing, the sounds are randomly selected from each element.\n\n2.
+    Set the Min & Max Volume. Each time a sound plays, it will have a random volume
+    within this range\n\n3. Set the Min & Max Pirch. Each time a sound plays, it
+    will have a random pitch within this range. \n\n4. Set the Interval Range. Each
+    time a sound plays, it will wait a random amount of seconds within this range
+    before playing the next sound. \n\n5. Once you setup one of these, you can duplicate
+    the entire game object in the Hierarchy as many times as you'd like and then
+    move the game objects around the map (e.g. to different trees). Try and create
+    10 to 15 bird tweets in this manner to create a rich ambience with lots of directional
+    tweeting. \n\n6. You can Shift Select multiple game objects (e.g. birds) in the
+    Heirarchy and adjust their settings in one go - useful if you have 20 birds and
+    you need to adjust their Mix or Max Distance, or any other parameter.\n\n7. Be
+    creative! This game object can be used for many different things beyond birds,
+    frogs and wind.\n"
+--- !u!114 &6899575828320963811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783559844943784268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5418d1dbf4a74402084e61c192d21826, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: f38f924f1762e4deda5f74fedc35c957, type: 3}
+    volumeRange:
+      min: 0.8
+      max: 1
+    pitchRange:
+      min: 0.95
+      max: 1.05
+  - clip: {fileID: 8300000, guid: c83a4faf6d639442a8c057093c71beda, type: 3}
+    volumeRange:
+      min: 0.8
+      max: 1
+    pitchRange:
+      min: 0.95
+      max: 1.05
+  - clip: {fileID: 8300000, guid: f38f924f1762e4deda5f74fedc35c957, type: 3}
+    volumeRange:
+      min: 0.8
+      max: 1
+    pitchRange:
+      min: 0.95
+      max: 1.05
+  intervalRange:
+    min: 1
+    max: 3
+  maxDistance: 50
+--- !u!82 &1248784105206060279
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783559844943784268}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -402529107390267425, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 100
+  DopplerLevel: 1
+  MinDistance: 0
+  MaxDistance: 15
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

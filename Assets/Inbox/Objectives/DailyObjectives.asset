@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5338c77b0a4f24df2974a3d68480300d, type: 3}
+  m_Name: DailyObjectives
+  m_EditorClassIdentifier: 
+  objectives:
+  - objectiveId: LightFiresticksGrasslands
+    dayNumber: 1
+    timeToAppear: 0.17
+  - objectiveId: LightFiresticks
+    dayNumber: 1
+    timeToAppear: 0.173
+  - objectiveId: LightCampfire
+    dayNumber: 1
+    timeToAppear: 0.16
+  - objectiveId: PickupAxe
+    dayNumber: 1
+    timeToAppear: 0.16
+  - objectiveId: PickupFishingRod
+    dayNumber: 2
+    timeToAppear: 0.19
+  - objectiveId: CatchAFish
+    dayNumber: 2
+    timeToAppear: 0.25
+  - objectiveId: EnterTheStudio
+    dayNumber: 2
+    timeToAppear: 0.25
+  - objectiveId: FixStudioPower
+    dayNumber: 2
+    timeToAppear: 0.25
+  - objectiveId: TurnOnLights
+    dayNumber: 2
+    timeToAppear: 0.25
+  - objectiveId: TestMixingDesk
+    dayNumber: 2
+    timeToAppear: 0.25
+  - objectiveId: CatchTwoFishes
+    dayNumber: 3
+    timeToAppear: 0.19
+  - objectiveId: CatchThreeFishes
+    dayNumber: 4
+    timeToAppear: 0.19
+  - objectiveId: CatchFourFishes
+    dayNumber: 5
+    timeToAppear: 0.19
+  - objectiveId: CookAFish
+    dayNumber: 3
+    timeToAppear: 0.17
+  - objectiveId: MakeWellOffering
+    dayNumber: 3
+    timeToAppear: 0.175

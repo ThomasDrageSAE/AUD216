@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "unity": {
+      "command": "unity",
+      "args": ["mcp", "--project-path", "D:/GitHub/AUD216_Project1_Nature_Level"]
+    }
+  }
+}

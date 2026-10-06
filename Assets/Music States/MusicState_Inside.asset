@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3192bb1f75a0a41979fb692b5ea8967f, type: 3}
+  m_Name: MusicState_Inside
+  m_EditorClassIdentifier: 
+  state: 2
+  bpm: 120
+  beatsPerBar: 4
+  introSegment:
+    segmentName: Segment
+    lengthInBars: 8
+    stems: []
+  loopSegments:
+  - segmentName: Loop
+    lengthInBars: 8
+    stems:
+    - stemName: Stem 1
+      clip: {fileID: 0}
+      minIntensity: 0
+      fadeRange: 0
+      volume: 1
+      fadeInTime: 1.5
+      fadeOutTime: 2.5
+  loopOrder: 1
+  avoidRepeatInRandom: 1
+  outroSegment:
+    segmentName: Segment
+    lengthInBars: 8
+    stems: []
