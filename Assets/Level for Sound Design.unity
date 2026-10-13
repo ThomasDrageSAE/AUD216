@@ -24763,20 +24763,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 294049200720240337, guid: 6eec543c40edcaa45b8702e5938f63fc, type: 3}
       propertyPath: audioClips.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 294049200720240337, guid: 6eec543c40edcaa45b8702e5938f63fc, type: 3}
       propertyPath: 'audioClips.Array.data[0]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: c050f5f8eb857d24a9a360ebc12f9330, type: 3}
     - target: {fileID: 294049200720240337, guid: 6eec543c40edcaa45b8702e5938f63fc, type: 3}
       propertyPath: 'audioClips.Array.data[1]'
       value: 
-      objectReference: {fileID: 8300000, guid: 0d0165dbaeaa84946b7cdf9d34ab2ed6, type: 3}
+      objectReference: {fileID: 8300000, guid: 3c36f012cb88fe64eb7b3d77f6168663, type: 3}
     - target: {fileID: 294049200720240337, guid: 6eec543c40edcaa45b8702e5938f63fc, type: 3}
       propertyPath: 'audioClips.Array.data[2]'
       value: 
-      objectReference: {fileID: 8300000, guid: 7cc1af6d7a14c9e41bad748455637b01, type: 3}
+      objectReference: {fileID: 8300000, guid: 1f6b5e12b28d58241b80e649dee7933b, type: 3}
     - target: {fileID: 294049200720240337, guid: 6eec543c40edcaa45b8702e5938f63fc, type: 3}
       propertyPath: 'audioClips.Array.data[3]'
       value: 
@@ -30864,7 +30864,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1.63
-  MaxDistance: 51.44
+  MaxDistance: 33.71
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -128931,20 +128931,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 294049200720240337, guid: 6eec543c40edcaa45b8702e5938f63fc, type: 3}
       propertyPath: audioClips.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 294049200720240337, guid: 6eec543c40edcaa45b8702e5938f63fc, type: 3}
       propertyPath: 'audioClips.Array.data[0]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8300000, guid: fbb83abff33990d4e957bce5a7a32045, type: 3}
     - target: {fileID: 294049200720240337, guid: 6eec543c40edcaa45b8702e5938f63fc, type: 3}
       propertyPath: 'audioClips.Array.data[1]'
       value: 
-      objectReference: {fileID: 8300000, guid: 6db6eb9fb5115284eacd409344ca09cd, type: 3}
+      objectReference: {fileID: 8300000, guid: 4d28ad3c91d20274f981da975e2bd793, type: 3}
     - target: {fileID: 294049200720240337, guid: 6eec543c40edcaa45b8702e5938f63fc, type: 3}
       propertyPath: 'audioClips.Array.data[2]'
       value: 
-      objectReference: {fileID: 8300000, guid: dd76f3e08fd9f09418ce9e675cb496f8, type: 3}
+      objectReference: {fileID: 8300000, guid: 0d4808151510a1b4a8c6593850e46abb, type: 3}
     - target: {fileID: 294049200720240337, guid: 6eec543c40edcaa45b8702e5938f63fc, type: 3}
       propertyPath: 'audioClips.Array.data[3]'
       value: 
@@ -201751,7 +201751,7 @@ MonoBehaviour:
     weaponId: 6
     shootSounds:
     - {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
-    shootVolume: 0.6
+    shootVolume: 0.557
     minPitchVariation: 0.95
     maxPitchVariation: 1.05
     raiseWeaponSound: {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
@@ -201761,24 +201761,24 @@ MonoBehaviour:
     reloadStartSound: {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
     reloadEndSound: {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
     reloadActionSounds:
-    - {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+    - {fileID: 8300000, guid: b74693ccc11cc2b4a8e0102d0263d604, type: 3}
     reloadVolume: 1
     throwSounds: []
     throwVolume: 1
     explosionSounds: []
     explosionVolume: 1
     explosionMaxDistance: 80
-    spinWindupSound: {fileID: 0}
-    spinWinddownSound: {fileID: 0}
+    spinWindupSound: {fileID: 8300000, guid: c7995de980a6a204ba2308f8e616ead6, type: 3}
+    spinWinddownSound: {fileID: 8300000, guid: 2863d816c1a27ac43a904ee61eaaf332, type: 3}
     spinWinddownTail: 0
-    spinLoopSound: {fileID: 0}
-    shootingStartupSound: {fileID: 0}
-    shootingLoopSound: {fileID: 0}
+    spinLoopSound: {fileID: 8300000, guid: 7c6706a2b3d71d541ae6fb329c1a7156, type: 3}
+    shootingStartupSound: {fileID: 8300000, guid: 3536ae4897e8a0a4cad3c1ce81b06dbf, type: 3}
+    shootingLoopSound: {fileID: 8300000, guid: 97acb3b745273c241ad085ef181621e5, type: 3}
     shootingShutdownSound: {fileID: 0}
     spinVolume: 0.6
     weaponType: 3
   m_WeaponAudioSource: {fileID: 165281471}
-  m_AudioMixerGroup: {fileID: 0}
+  m_AudioMixerGroup: {fileID: -981994974346294321, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
 --- !u!114 &2049660013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201869,9 +201869,10 @@ MonoBehaviour:
     scheduledClipStartTime: 0
   - trackName: Fighting
     state: 1
-    musicClips: []
+    musicClips:
+    - {fileID: 8300000, guid: 25eb3bd228f951741a1f3b4caea53a7d, type: 3}
     volume: 1
-    outputMixerGroup: {fileID: 0}
+    outputMixerGroup: {fileID: 8426258057616649091, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
     loop: 1
     playbackMode: 0
     avoidRepeatInRandom: 1
@@ -202074,7 +202075,7 @@ MonoBehaviour:
   - interactionName: Cave Door
     interactionId: 3
     interactionType: 0
-    interactionSound: {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+    interactionSound: {fileID: 8300000, guid: e6c203e997a6325498c734f39ad2597a, type: 3}
     customAudioSource: {fileID: 883161306}
     igniteSounds: []
     fireLoop: {fileID: 0}
@@ -202119,8 +202120,8 @@ MonoBehaviour:
     rightSpeakerSource: {fileID: 0}
     toggleOnSound: {fileID: 0}
     toggleOffSound: {fileID: 0}
-    sizzleLoop: {fileID: 0}
-    doneChime: {fileID: 0}
+    sizzleLoop: {fileID: 8300000, guid: 9a9091440b591ed468eb3173b2982193, type: 3}
+    doneChime: {fileID: 8300000, guid: e1f6e17a844ffbf4c86a78a4ebd2dbb1, type: 3}
     castSound: {fileID: 0}
     biteSound: {fileID: 0}
     caughtSound: {fileID: 0}
@@ -202215,9 +202216,9 @@ MonoBehaviour:
     toggleOffSound: {fileID: 0}
     sizzleLoop: {fileID: 0}
     doneChime: {fileID: 0}
-    castSound: {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
-    biteSound: {fileID: 0}
-    caughtSound: {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+    castSound: {fileID: 8300000, guid: b87810db9f8145340b2d9d94a75a209d, type: 3}
+    biteSound: {fileID: 8300000, guid: 2565c39b0450e4b42b723f15392d8fa6, type: 3}
+    caughtSound: {fileID: 8300000, guid: 3bcf6c6b472dc3c45b7a1af7a14a2781, type: 3}
     dialogueLines: []
     walkieClips: []
     walkiePlaybackMode: 0
@@ -202242,8 +202243,8 @@ MonoBehaviour:
     rightSpeakerAudio: {fileID: 0}
     leftSpeakerSource: {fileID: 0}
     rightSpeakerSource: {fileID: 0}
-    toggleOnSound: {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
-    toggleOffSound: {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+    toggleOnSound: {fileID: 8300000, guid: a755952dce3bcd64d96f79b076900d69, type: 3}
+    toggleOffSound: {fileID: 8300000, guid: affefb8787c39844f9579a9fa1f53a66, type: 3}
     sizzleLoop: {fileID: 0}
     doneChime: {fileID: 0}
     castSound: {fileID: 0}
@@ -202302,7 +202303,7 @@ MonoBehaviour:
     fireLoopStartDelay: 1
     leverSound: {fileID: 0}
     sparksSound: {fileID: 0}
-    mixerGroupOutput: {fileID: 0}
+    mixerGroupOutput: {fileID: 3486777540803879219, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
     leftSpeakerAudio: {fileID: 8300000, guid: ec2f7259f3de5014aa305cc29fb4bb9e, type: 3}
     rightSpeakerAudio: {fileID: 8300000, guid: ec2f7259f3de5014aa305cc29fb4bb9e, type: 3}
     leftSpeakerSource: {fileID: 55218316}
@@ -202326,7 +202327,7 @@ MonoBehaviour:
   - interactionName: Mushroom Eating
     interactionId: 7
     interactionType: 10
-    interactionSound: {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+    interactionSound: {fileID: 8300000, guid: e780517769957b3409c611b58345861b, type: 3}
     customAudioSource: {fileID: 972770055}
     igniteSounds: []
     fireLoop: {fileID: 0}
@@ -202411,12 +202412,7 @@ MonoBehaviour:
     caughtSound: {fileID: 0}
     dialogueLines: []
     walkieClips:
-    - {fileID: 8300000, guid: a2bac77498fa8f34e8e355e6857f4b3f, type: 3}
-    - {fileID: 8300000, guid: 405cddec8796ed84c8dd2c4085cea383, type: 3}
-    - {fileID: 8300000, guid: c72edc80fbac2b24a95f3d594116e61b, type: 3}
-    - {fileID: 8300000, guid: 4de31fed321292642aa3d4fd5cca957d, type: 3}
-    - {fileID: 8300000, guid: 11dc25c300f39074385b98782b3d10ca, type: 3}
-    - {fileID: 8300000, guid: c62d2cabb744a1f44bac11a73ee551c4, type: 3}
+    - {fileID: 8300000, guid: f447f5418938b86469c215c6ff969095, type: 3}
     walkiePlaybackMode: 0
     walkieMinGapSeconds: 8
     walkieMaxGapSeconds: 20
@@ -202458,7 +202454,7 @@ MonoBehaviour:
   - interactionName: Well Splash
     interactionId: 9
     interactionType: 0
-    interactionSound: {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+    interactionSound: {fileID: 8300000, guid: 6f080d303e542d44cbd3493faeee2414, type: 3}
     customAudioSource: {fileID: 1052498255}
     igniteSounds: []
     fireLoop: {fileID: 0}
