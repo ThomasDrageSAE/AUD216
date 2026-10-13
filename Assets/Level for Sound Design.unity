@@ -30853,7 +30853,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 296429323556396102, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 1b992f11b7d0b5445bc8976185ce3f8d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -30863,10 +30863,10 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
+  MinDistance: 1.63
+  MaxDistance: 51.44
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -30874,10 +30874,19 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
+      time: 0.021101499
       value: 1
       inSlope: 0
       outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.18153314
+      value: 0.83611
+      inSlope: -1.0215565
+      outSlope: -1.0215565
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
@@ -30885,12 +30894,12 @@ AudioSource:
     - serializedVersion: 3
       time: 1
       value: 0
-      inSlope: 0
-      outSlope: 0
+      inSlope: -1.0215564
+      outSlope: -1.0215564
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
@@ -30899,7 +30908,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -201549,36 +201558,43 @@ MonoBehaviour:
   - surfaceType: wood
     surfaceId: 1
     footstepSounds:
-    - {fileID: 8300000, guid: 9fa9c042d3c0c764d8a09896fd2dd45d, type: 3}
+    - {fileID: 8300000, guid: 3f68ac3135ebeab4a80ffdf7929a8214, type: 3}
     baseVolume: 1
   - surfaceType: grass
     surfaceId: 2
     footstepSounds:
-    - {fileID: 8300000, guid: 9fa9c042d3c0c764d8a09896fd2dd45d, type: 3}
+    - {fileID: 8300000, guid: 9255122748a6d304489ffe7fdb28e07f, type: 3}
+    - {fileID: 8300000, guid: fa950aa1108ef7d4e92daec55ec746ca, type: 3}
+    - {fileID: 8300000, guid: e39f937e4c72fdf4b9af6bcf62828b9d, type: 3}
     baseVolume: 1
   - surfaceType: sand
     surfaceId: 3
     footstepSounds:
-    - {fileID: 8300000, guid: 9fa9c042d3c0c764d8a09896fd2dd45d, type: 3}
+    - {fileID: 8300000, guid: e2250641dd7d6234589cc7db9d846f67, type: 3}
     baseVolume: 1
   - surfaceType: rock
     surfaceId: 4
     footstepSounds:
-    - {fileID: 8300000, guid: 9fa9c042d3c0c764d8a09896fd2dd45d, type: 3}
+    - {fileID: 8300000, guid: ebfc30e56490edc479ee58a780f2f9b4, type: 3}
     baseVolume: 1
   - surfaceType: snow
     surfaceId: 5
     footstepSounds:
-    - {fileID: 8300000, guid: 9fa9c042d3c0c764d8a09896fd2dd45d, type: 3}
+    - {fileID: 8300000, guid: 208c4c7c479884e45a80b25590bb0ed2, type: 3}
+    - {fileID: 8300000, guid: 2fd3f6379d82caa45b7f10ec60c032e6, type: 3}
+    - {fileID: 8300000, guid: 4866279dcebc1da4fadb3f69a427582b, type: 3}
     baseVolume: 1
   - surfaceType: swamp
     surfaceId: 6
     footstepSounds:
-    - {fileID: 8300000, guid: 9fa9c042d3c0c764d8a09896fd2dd45d, type: 3}
+    - {fileID: 8300000, guid: 438813764addf3d4995ea9a85ae6fa9c, type: 3}
+    - {fileID: 8300000, guid: dd016f493eeaa954c9bca25af15a2eec, type: 3}
     baseVolume: 1
   - surfaceType: water
     surfaceId: 7
-    footstepSounds: []
+    footstepSounds:
+    - {fileID: 8300000, guid: bfea3a0a64bf19847938f4a1243d5a0f, type: 3}
+    - {fileID: 8300000, guid: fd70dd2793d1dd44b9236d8111c3bec3, type: 3}
     baseVolume: 1
   - surfaceType: default
     surfaceId: 8
@@ -201612,18 +201628,18 @@ MonoBehaviour:
   - weaponName: SMG
     weaponId: 1
     shootSounds:
-    - {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+    - {fileID: 8300000, guid: b1cc5f4ce648d00469b07b2c1d6aeca7, type: 3}
     shootVolume: 0.554
     minPitchVariation: 0.95
     maxPitchVariation: 1.05
-    raiseWeaponSound: {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
-    lowerWeaponSound: {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+    raiseWeaponSound: {fileID: 8300000, guid: 904b7678e6cb85b42bf03e186889ae17, type: 3}
+    lowerWeaponSound: {fileID: 8300000, guid: 272daaf922e0b474a8167cfee968da2d, type: 3}
     toggleSoundVolume: 1
     togglePitchVariation: 0
     reloadStartSound: {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
     reloadEndSound: {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
     reloadActionSounds:
-    - {fileID: 0}
+    - {fileID: 8300000, guid: 2050788ba65edbd42adf859cccb7bd37, type: 3}
     reloadVolume: 1
     throwSounds: []
     throwVolume: 1
@@ -201642,18 +201658,18 @@ MonoBehaviour:
   - weaponName: Revolver
     weaponId: 2
     shootSounds:
-    - {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+    - {fileID: 8300000, guid: a14a83cb4548ea2418bb6f8178c8b3cd, type: 3}
     shootVolume: 1
     minPitchVariation: 0.95
     maxPitchVariation: 1.05
-    raiseWeaponSound: {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
-    lowerWeaponSound: {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+    raiseWeaponSound: {fileID: 8300000, guid: 904b7678e6cb85b42bf03e186889ae17, type: 3}
+    lowerWeaponSound: {fileID: 8300000, guid: 272daaf922e0b474a8167cfee968da2d, type: 3}
     toggleSoundVolume: 1
     togglePitchVariation: 0
     reloadStartSound: {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
     reloadEndSound: {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
     reloadActionSounds:
-    - {fileID: 0}
+    - {fileID: 8300000, guid: 05a37b787f229fb4c851e20116fbb021, type: 3}
     reloadVolume: 1
     throwSounds: []
     throwVolume: 1
@@ -201672,13 +201688,13 @@ MonoBehaviour:
   - weaponName: Axe
     weaponId: 3
     shootSounds:
-    - {fileID: 8300000, guid: 6477068d2b095294994fafb4d2535911, type: 3}
-    - {fileID: 8300000, guid: 616b15fb36729ed438bb610f53853225, type: 3}
+    - {fileID: 8300000, guid: 204b51a1bf6bcc945a093fddaa871a15, type: 3}
+    - {fileID: 8300000, guid: 47f76e6430d2ec8428571f5dda9abb0b, type: 3}
     shootVolume: 1
     minPitchVariation: 0.95
     maxPitchVariation: 1.05
-    raiseWeaponSound: {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
-    lowerWeaponSound: {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+    raiseWeaponSound: {fileID: 8300000, guid: 9e75c35cccb60474abf0a6ba313552bb, type: 3}
+    lowerWeaponSound: {fileID: 8300000, guid: ff3450da3449f4949b22050dd686f6bb, type: 3}
     toggleSoundVolume: 1
     togglePitchVariation: 0
     reloadStartSound: {fileID: 0}
@@ -201714,10 +201730,12 @@ MonoBehaviour:
     reloadActionSounds: []
     reloadVolume: 1
     throwSounds:
-    - {fileID: 8300000, guid: 9640d4054c9b81f4f96c29e0724e3b8f, type: 3}
+    - {fileID: 8300000, guid: a6c83a63df56bff48bc578478cf3e759, type: 3}
+    - {fileID: 8300000, guid: e4bfed7ddf83cfe429d34968484aa73e, type: 3}
     throwVolume: 1
     explosionSounds:
-    - {fileID: 8300000, guid: 4e1d194e28bfdb948bfa218cdf77c318, type: 3}
+    - {fileID: 8300000, guid: 14cb760a1e7d43f4cb50b38506811978, type: 3}
+    - {fileID: 8300000, guid: 051e948a0eb96a44398667d15598640f, type: 3}
     explosionVolume: 1
     explosionMaxDistance: 80
     spinWindupSound: {fileID: 0}
@@ -201835,9 +201853,10 @@ MonoBehaviour:
   musicTracks:
   - trackName: Exploring
     state: 0
-    musicClips: []
+    musicClips:
+    - {fileID: 8300000, guid: 11aa30cc8bc89344ba3848afe2410bae, type: 3}
     volume: 1
-    outputMixerGroup: {fileID: 0}
+    outputMixerGroup: {fileID: 8426258057616649091, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
     loop: 1
     playbackMode: 0
     avoidRepeatInRandom: 1
@@ -201910,28 +201929,28 @@ MonoBehaviour:
   ambienceTracks:
   - trackName: Outside
     state: 0
-    ambienceClip: {fileID: 0}
+    ambienceClip: {fileID: 8300000, guid: d5d75525492551f429a259ade3b51e4b, type: 3}
     volume: 1
     outputMixerGroup: {fileID: 2015881017894638852, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
     loop: 1
     source: {fileID: 0}
   - trackName: Swamp
     state: 1
-    ambienceClip: {fileID: 0}
+    ambienceClip: {fileID: 8300000, guid: 193187f475da81144b420eba08f4c318, type: 3}
     volume: 1
     outputMixerGroup: {fileID: 2015881017894638852, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
     loop: 1
     source: {fileID: 0}
   - trackName: Campfire
     state: 3
-    ambienceClip: {fileID: 0}
+    ambienceClip: {fileID: 8300000, guid: d640c046b19c7da4ba74b4f2726dd53a, type: 3}
     volume: 1
     outputMixerGroup: {fileID: 2015881017894638852, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
     loop: 1
     source: {fileID: 0}
   - trackName: Cave
     state: 2
-    ambienceClip: {fileID: 0}
+    ambienceClip: {fileID: 8300000, guid: bb3a0bcfe07e5f44fb2f9cc140041e2b, type: 3}
     volume: 1
     outputMixerGroup: {fileID: 2015881017894638852, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
     loop: 1
@@ -201954,49 +201973,53 @@ MonoBehaviour:
   - surfaceTag: Water
     particleEffect: {fileID: 198290185897259954, guid: 55c7caedf64d935419e00dac831d338a, type: 3}
     impactSounds:
-    - {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+    - {fileID: 8300000, guid: f5385c7c66aca8d449874f9ae11f1cad, type: 3}
     volume: 1
     minPitch: 0.9
     maxPitch: 1.1
   - surfaceTag: Rock
     particleEffect: {fileID: 198029139897396496, guid: 9fe1ddc0da27cb44ebeeb8c2befa68bd, type: 3}
     impactSounds:
-    - {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+    - {fileID: 8300000, guid: 57479cd1e848855439c63fed0bb3939b, type: 3}
     volume: 1
     minPitch: 0.9
     maxPitch: 1.1
   - surfaceTag: Dirt
     particleEffect: {fileID: 198054064319151800, guid: 4f703a1da613efc43b08b1d2bdcfd49f, type: 3}
     impactSounds:
-    - {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+    - {fileID: 8300000, guid: 5846ee5c68005b94894f5172b769ef0c, type: 3}
+    - {fileID: 8300000, guid: e14759a43de127f498ac860da90af5de, type: 3}
     volume: 1
     minPitch: 0.9
     maxPitch: 1.1
   - surfaceTag: Metal
     particleEffect: {fileID: 198011925041146442, guid: 57e18706e2792ff4bb5561ed74b796e2, type: 3}
     impactSounds:
-    - {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+    - {fileID: 8300000, guid: 4eb0efd08948f064595c6d8b9b56dbcb, type: 3}
     volume: 1
     minPitch: 0.9
     maxPitch: 1.1
   - surfaceTag: Wood
     particleEffect: {fileID: 198517247309888930, guid: 2b28f2fdc5a65964f96ea4d2b9d6ca63, type: 3}
     impactSounds:
-    - {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+    - {fileID: 8300000, guid: 0af27c3cc0140ec43980167a9e697212, type: 3}
     volume: 1
     minPitch: 0.9
     maxPitch: 1.1
   - surfaceTag: Terrain
     particleEffect: {fileID: 198054064319151800, guid: 4f703a1da613efc43b08b1d2bdcfd49f, type: 3}
     impactSounds:
-    - {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+    - {fileID: 8300000, guid: 85c7c20b136787e45b57c23ee8ceea7f, type: 3}
     volume: 1
     minPitch: 0.9
     maxPitch: 1.1
   effectDuration: 1
   bloodEffect: {fileID: 198615267133080452, guid: ed67c2cb8e3a7fb418c6fbb1b001dce2, type: 3}
   enemyImpactSounds:
-  - {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+  - {fileID: 8300000, guid: 024bf72f76c835f42b87a9eccd3b891c, type: 3}
+  - {fileID: 8300000, guid: 13fdd23d24d5646479bd944f7df821d4, type: 3}
+  - {fileID: 8300000, guid: b257b291af9a33243be9e90142f3d7ee, type: 3}
+  - {fileID: 8300000, guid: f4a794aca0eefdf49bea5b604ca96656, type: 3}
   enemyImpactVolume: 1
   enemyMinPitch: 0.9
   enemyMaxPitch: 1.1
@@ -202023,7 +202046,7 @@ MonoBehaviour:
     customAudioSource: {fileID: 0}
     igniteSounds:
     - {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
-    fireLoop: {fileID: 0}
+    fireLoop: {fileID: 8300000, guid: 124d2f117435bd648905855eb89643fa, type: 3}
     fireLoopStartDelay: 0.3
     leverSound: {fileID: 0}
     sparksSound: {fileID: 0}
@@ -202119,7 +202142,7 @@ MonoBehaviour:
     fireLoop: {fileID: 0}
     fireLoopStartDelay: 1
     leverSound: {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
-    sparksSound: {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+    sparksSound: {fileID: 8300000, guid: e4f1b314bff9bdf4bafc6598428caeda, type: 3}
     mixerGroupOutput: {fileID: 0}
     leftSpeakerAudio: {fileID: 0}
     rightSpeakerAudio: {fileID: 0}
@@ -202147,8 +202170,8 @@ MonoBehaviour:
     interactionSound: {fileID: 0}
     customAudioSource: {fileID: 0}
     igniteSounds:
-    - {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
-    fireLoop: {fileID: 0}
+    - {fileID: 8300000, guid: eca3ce5a3cb8c6a4e9de6b862952c5fb, type: 3}
+    fireLoop: {fileID: 8300000, guid: b186c9bc7621b90458c78c047e5c6ec7, type: 3}
     fireLoopStartDelay: 0.3
     leverSound: {fileID: 0}
     sparksSound: {fileID: 0}
@@ -202238,7 +202261,7 @@ MonoBehaviour:
   - interactionName: Light Switch
     interactionId: 5
     interactionType: 0
-    interactionSound: {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+    interactionSound: {fileID: 8300000, guid: 0ea65a73947584b4891b0b1dde77b08a, type: 3}
     customAudioSource: {fileID: 1366000744}
     igniteSounds: []
     fireLoop: {fileID: 0}
@@ -202477,7 +202500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   riverProfiles:
   - areaName: River Area 1
-    riverAudioClip: {fileID: 0}
+    riverAudioClip: {fileID: 8300000, guid: 298c29b45f18ac744ada792cf05828dd, type: 3}
     audioSource: {fileID: 1270426883}
     mixerGroup: {fileID: 0}
     riverPath: {fileID: 1649503141}
@@ -202494,9 +202517,9 @@ MonoBehaviour:
     currentSegment: 0
     segmentProgress: 0
   - areaName: River Area 2
-    riverAudioClip: {fileID: 0}
+    riverAudioClip: {fileID: 8300000, guid: 65ef3bc2341d6e84ab3e5da0332733c6, type: 3}
     audioSource: {fileID: 173789222}
-    mixerGroup: {fileID: 0}
+    mixerGroup: {fileID: -2838175906123992593, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
     riverPath: {fileID: 1574762471}
     followPlayer: {fileID: 3891715872936121329}
     playOnStart: 1

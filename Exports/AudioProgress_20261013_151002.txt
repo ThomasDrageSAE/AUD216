@@ -1,0 +1,203 @@
+AUDIO IMPLEMENTATION PROGRESS
+Scene: Level for Sound Design
+Scanned: 2026-10-13 15:10
+
+OVERALL: 2/155 implemented (1%)  |  MISSING: 153
+========================================================================
+
+Footsteps  -  0/9 (0%)
+  [MISSING] Wood ▸ Footsteps ▸ [0]
+  [MISSING] Grass ▸ Footsteps ▸ [0]
+  [MISSING] Sand ▸ Footsteps ▸ [0]
+  [MISSING] Rock ▸ Footsteps ▸ [0]
+  [MISSING] Snow ▸ Footsteps ▸ [0]
+  [MISSING] Swamp ▸ Footsteps ▸ [0]
+  [MISSING] Default ▸ Footsteps ▸ [0]
+  [MISSING] Jumps ▸ [0]
+  [MISSING] Landings ▸ [0]
+
+Waterfall  -  0/1 (0%)
+  [MISSING] Water
+
+River Audio Manager  -  0/2 (0%)
+  [MISSING] River Area 1 ▸ River
+  [MISSING] River Area 2 ▸ River
+
+Ambience Manager  -  0/4 (0%)
+  [MISSING] Outside ▸ Ambience
+  [MISSING] Swamp ▸ Ambience
+  [MISSING] Campfire ▸ Ambience
+  [MISSING] Cave ▸ Ambience
+
+Dawn Chorus  -  0/2 (0%)
+  [MISSING] Dawn Chorus ▸ [0]
+  [MISSING] Dawn Stinger
+
+Enemy Audio Manager  -  0/26 (0%)
+  [MISSING] Butcher ▸ General Vocalisations ▸ Vocalisations ▸ [0]
+  [MISSING] Butcher ▸ Attacks ▸ [0]
+  [MISSING] Butcher ▸ Deaths ▸ [0]
+  [MISSING] Butcher ▸ Headshots ▸ [0]
+  [MISSING] Butcher ▸ Blocks ▸ [0]
+  [MISSING] Yokai ▸ General Vocalisations ▸ Vocalisations ▸ [0]
+  [MISSING] Yokai ▸ Attacks ▸ [0]
+  [MISSING] Yokai ▸ Deaths ▸ [0]
+  [MISSING] Yokai ▸ Headshots ▸ [0]
+  [MISSING] Yokai ▸ Screams ▸ [0]
+  [MISSING] Demon ▸ General Vocalisations ▸ Vocalisations ▸ [0]
+  [MISSING] Demon ▸ Attacks ▸ [0]
+  [MISSING] Demon ▸ Deaths ▸ [0]
+  [MISSING] Demon ▸ Headshots ▸ [0]
+  [MISSING] Demon ▸ Spit Windups ▸ [0]
+  [MISSING] Demon ▸ Spits ▸ [0]
+  [MISSING] Demon ▸ Spit Impacts ▸ [0]
+  [MISSING] Choul ▸ General Vocalisations ▸ Vocalisations ▸ [0]
+  [MISSING] Choul ▸ Attacks ▸ [0]
+  [MISSING] Choul ▸ Deaths ▸ [0]
+  [MISSING] Choul ▸ Headshots ▸ [0]
+  [MISSING] Choul ▸ Lunges ▸ [0]
+  [MISSING] Rock Golem ▸ General Vocalisations ▸ Vocalisations ▸ [0]
+  [MISSING] Rock Golem ▸ Attacks ▸ [0]
+  [MISSING] Rock Golem ▸ Deaths ▸ [0]
+  [MISSING] Rock Golem ▸ Headshots ▸ [0]
+
+Heartbeat Layer  -  0/1 (0%)
+  [MISSING] Heartbeat Loop
+
+Interaction Audio Manager  -  2/28 (7%)
+  [MISSING] Campfire ▸ Ignition ▸ [0]
+  [MISSING] Campfire ▸ Fire Loop
+  [MISSING] Cave Door ▸ Interaction
+  [MISSING] Cooking ▸ Sizzle Loop
+  [MISSING] Cooking ▸ Done Chime
+  [MISSING] Electrical Box ▸ Lever
+  [MISSING] Electrical Box ▸ Sparks
+  [MISSING] Firestick ▸ Ignition ▸ [0]
+  [MISSING] Firestick ▸ Fire Loop
+  [MISSING] Fishing ▸ Cast
+  [MISSING] Fishing ▸ Bite
+  [MISSING] Fishing ▸ Caught
+  [MISSING] Flashlight ▸ Toggle On
+  [MISSING] Flashlight ▸ Toggle Off
+  [MISSING] Light Switch ▸ Interaction
+  [ok]      Mixing Desk Music ▸ Left Speaker  =  DIMMU_BORGIR_-_Ascent_OFFICIAL_MUSIC_VIDEO
+  [ok]      Mixing Desk Music ▸ Right Speaker  =  DIMMU_BORGIR_-_Ascent_OFFICIAL_MUSIC_VIDEO
+  [MISSING] Mushroom Eating ▸ Interaction
+  [MISSING] Mushroom Eating ▸ Dialogue Lines ▸ [0]
+  [MISSING] Turntable ▸ Tracks ▸ [0]
+  [MISSING] Walkie Talkie ▸ Chatter ▸ [0]
+  [MISSING] Walkie Talkie ▸ Chatter ▸ [1]
+  [MISSING] Walkie Talkie ▸ Chatter ▸ [2]
+  [MISSING] Walkie Talkie ▸ Chatter ▸ [3]
+  [MISSING] Walkie Talkie ▸ Chatter ▸ [4]
+  [MISSING] Walkie Talkie ▸ Chatter ▸ [5]
+  [MISSING] Well ▸ Interaction
+  [MISSING] Well Splash ▸ Interaction
+
+Music State: MusicState_Exploring  -  0/7 (0%)
+  [MISSING] Stems ▸ [0]
+  [MISSING] Loop ▸ Stems ▸ Loop1 
+  [MISSING] Loop ▸ Stems ▸ Loop2
+  [MISSING] Loop ▸ Stems ▸ Strings & horns
+  [MISSING] Stems ▸ [0]
+  [MISSING] Stems ▸ [1]
+  [MISSING] Stems ▸ [2]
+
+Music State: MusicState_isFighting  -  0/1 (0%)
+  [MISSING] Loop ▸ Stems ▸ Stem 1
+
+Music State: MusicState_Inside  -  0/1 (0%)
+  [MISSING] Loop ▸ Stems ▸ Stem 1
+
+Music Manager  -  0/1 (0%)
+  [MISSING] Inside ▸ Music ▸ [0]
+
+Player Audio Manager  -  0/7 (0%)
+  [MISSING] Health ▸ Damage ▸ [0]
+  [MISSING] Health ▸ Low Health Loop
+  [MISSING] Hunger ▸ Hunger Warnings ▸ [0]
+  [MISSING] Hunger ▸ Eating ▸ [0]
+  [MISSING] Hunger ▸ Hunger Loop
+  [MISSING] Stamina ▸ Depleted
+  [MISSING] Stamina ▸ Regenerating
+
+Random Sound Spawner  (Birds)  -  0/1 (0%)
+  [MISSING] Calls ▸ [0]
+
+Random Sound Spawner  (Frogs)  -  0/1 (0%)
+  [MISSING] Calls ▸ [0]
+
+UI Audio Manager  -  0/15 (0%)
+  [MISSING] Menu Toggle On
+  [MISSING] Menu Toggle Off
+  [MISSING] Button Toggle On
+  [MISSING] Button Toggle Off
+  [MISSING] Objective Completed
+  [MISSING] All Enemies Cleared
+  [MISSING] Item Pickup
+  [MISSING] Item Drop
+  [MISSING] Fish Eaten
+  [MISSING] Food Can Eaten
+  [MISSING] Medicine Used
+  [MISSING] Day Number
+  [MISSING] Hit Marker
+  [MISSING] Headshot Ping
+  [MISSING] Level Up
+
+Weapon Audio Manager  -  0/29 (0%)
+  [MISSING] SMG ▸ Shots ▸ [0]
+  [MISSING] SMG ▸ Raise Weapon
+  [MISSING] SMG ▸ Lower Weapon
+  [MISSING] SMG ▸ Reload Start
+  [MISSING] SMG ▸ Reload End
+  [MISSING] SMG ▸ Reload Actions ▸ [0]
+  [MISSING] Revolver ▸ Shots ▸ [0]
+  [MISSING] Revolver ▸ Raise Weapon
+  [MISSING] Revolver ▸ Lower Weapon
+  [MISSING] Revolver ▸ Reload Start
+  [MISSING] Revolver ▸ Reload End
+  [MISSING] Revolver ▸ Reload Actions ▸ [0]
+  [MISSING] Axe ▸ Shots ▸ [0]
+  [MISSING] Axe ▸ Shots ▸ [1]
+  [MISSING] Axe ▸ Raise Weapon
+  [MISSING] Axe ▸ Lower Weapon
+  [MISSING] Grenade ▸ Throws ▸ [0]
+  [MISSING] Grenade ▸ Explosions ▸ [0]
+  [MISSING] Minigun ▸ Raise Weapon
+  [MISSING] Minigun ▸ Lower Weapon
+  [MISSING] Minigun ▸ Reload Start
+  [MISSING] Minigun ▸ Reload End
+  [MISSING] Minigun ▸ Reload Actions ▸ [0]
+  [MISSING] Minigun ▸ Spin Windup
+  [MISSING] Minigun ▸ Spin Winddown
+  [MISSING] Minigun ▸ Spin Loop
+  [MISSING] Minigun ▸ Shooting Startup
+  [MISSING] Minigun ▸ Shooting Loop
+  [MISSING] Minigun ▸ Shooting Shutdown
+
+Wind Chime Audio Manager  -  0/1 (0%)
+  [MISSING] Wind Chime Loop
+
+Boss Zombie Controller  -  0/5 (0%)
+  [MISSING] Entrance Roar
+  [MISSING] Phase Cracks ▸ [0]
+  [MISSING] Slam Windup Roar
+  [MISSING] Slam Impact
+  [MISSING] Summon Bellow
+
+Fishing Rod  -  0/6 (0%)
+  [MISSING] Perch ▸ Bite
+  [MISSING] Perch ▸ Catch
+  [MISSING] Silver Bass ▸ Bite
+  [MISSING] Silver Bass ▸ Catch
+  [MISSING] Golden Koi ▸ Bite
+  [MISSING] Golden Koi ▸ Catch
+
+Bullet Impact Manager  -  0/7 (0%)
+  [MISSING] Water ▸ Impacts ▸ [0]
+  [MISSING] Rock ▸ Impacts ▸ [0]
+  [MISSING] Dirt ▸ Impacts ▸ [0]
+  [MISSING] Metal ▸ Impacts ▸ [0]
+  [MISSING] Wood ▸ Impacts ▸ [0]
+  [MISSING] Terrain ▸ Impacts ▸ [0]
+  [MISSING] Enemy Impacts ▸ [0]
