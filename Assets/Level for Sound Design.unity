@@ -30864,7 +30864,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1.63
-  MaxDistance: 33.71
+  MaxDistance: 34.4
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -201379,10 +201379,8 @@ MonoBehaviour:
     enemyId: 1
     enemyType: 0
     generalVocalisations:
-      vocalisationSounds:
-      - {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
-    attackSounds:
-    - {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+      vocalisationSounds: []
+    attackSounds: []
     deathSounds:
     - {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
     headshotSounds:
@@ -201413,9 +201411,9 @@ MonoBehaviour:
     enemyType: 0
     generalVocalisations:
       vocalisationSounds:
-      - {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+      - {fileID: 8300000, guid: 2c1f5311071b93f439219853f6d7c587, type: 3}
     attackSounds:
-    - {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+    - {fileID: 8300000, guid: d6f2a6c4b62ee0d43add9ed934435333, type: 3}
     deathSounds:
     - {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
     headshotSounds:
@@ -201438,19 +201436,19 @@ MonoBehaviour:
     headshotVolume: 1
     vocalisationAudioSource: {fileID: 0}
     attackAudioSource: {fileID: 0}
-    vocalisationMixerGroup: {fileID: 0}
-    attackMixerGroup: {fileID: 0}
+    vocalisationMixerGroup: {fileID: 991869612853704367, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
+    attackMixerGroup: {fileID: 62277368894661753, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
     attackSoundDelay: 1
   - enemyName: Demon
     enemyId: 3
     enemyType: 0
     generalVocalisations:
       vocalisationSounds:
-      - {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+      - {fileID: 8300000, guid: 8308a61067259354e983a6c0ee27948a, type: 3}
     attackSounds:
-    - {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+    - {fileID: 8300000, guid: 641de5ceb19a0d748804c6d800daa6ab, type: 3}
     deathSounds:
-    - {fileID: 8300000, guid: 680c856c8571b954ab0f5665caf936bf, type: 3}
+    - {fileID: 8300000, guid: 016ed5000cebc2747976ee5f418292db, type: 3}
     headshotSounds:
     - {fileID: 0}
     enemyRole: 3
@@ -201473,8 +201471,8 @@ MonoBehaviour:
     headshotVolume: 1
     vocalisationAudioSource: {fileID: 0}
     attackAudioSource: {fileID: 0}
-    vocalisationMixerGroup: {fileID: 0}
-    attackMixerGroup: {fileID: 0}
+    vocalisationMixerGroup: {fileID: 991869612853704367, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
+    attackMixerGroup: {fileID: 62277368894661753, guid: 855e36c5d423f44d6a9571cbdf1b2686, type: 2}
     attackSoundDelay: 1
   - enemyName: Choul
     enemyId: 4
